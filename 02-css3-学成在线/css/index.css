@@ -1,0 +1,438 @@
+/* 全局属性 */
+body{
+    background-color: #f3f5f7;
+}
+
+/* 页面头部 */
+.head{
+    height: 102px;
+    background-color: #f3f5f7;
+    position: sticky;
+    z-index: 1;
+    /* 提高层级，不然会被覆盖 */
+    top: 0px;
+}
+.head div,.head ul{
+    height: 102px;
+    float: left;
+}
+/* 网页logo */
+.logo{
+    width: 266px;
+    /* background-color: pink; */
+}
+.logo div{
+    margin-top: 30px;
+    height: 42px;
+    width: 195px;
+    background: url(../img/sprite.png) no-repeat;
+}
+/* 头部导航 */
+.nav{
+    width: 340px;
+    /* background-color: white; */
+}
+.nav a{
+    list-style: none;
+}
+.nav li{
+    margin-right: 28px;
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    /* 清除默认行高 */
+    padding:12px 8px;
+    /* background-color: turquoise; */
+    margin-top: 28px;
+    color: black;
+}
+.nav li:hover{
+    border-bottom: 2px solid #02a6ff;
+}
+/* 搜素框 */
+.search{
+    width: 442px;
+    /* background-color: wheat; */
+}
+.search form{
+    margin-top: 32px;
+}
+.text{
+    height: 38px;
+    width: 340px;
+    border: 1px solid #05a2ff;
+    float: left;
+    padding-left: 20px;
+}
+.submit{
+    height: 40px;
+    width: 50px;
+    border: 1px solid #05a2ff;
+    background: url(../img/fa-search.png) #05a2ff no-repeat center;
+}
+/* 用户头像 */
+.user{
+    width: 152px;
+    /* background-color:pink; */
+}
+.user a{
+    display: block;
+    margin-top: 32px;
+}
+.user div{
+    height: 30px;
+    width: 30px;
+    background: url(../img/sprite.png) -195px -0px no-repeat;
+    margin-right: 5px;
+}
+.user span{
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    line-height: 30px;
+    color: #666;
+}
+/* 广告平铺背景 */
+.body-wrap{
+    height: 420px;
+    background-color: #1b046b;
+}
+/* 广告 */
+.banner{
+    height: 420px;
+    background-color: powderblue;
+    background-image: url(../img/banner2.png);
+}
+/* 左部半透明导航 */
+.menu{
+    float: left;
+    width: 190px;
+    height: 415px;
+    padding-top: 5px;
+    background-color: rgba(14, 3, 51, 0.3);
+}
+.menu li{
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 0 20px;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    width: 150px;
+    height: 46px;
+}
+.menu span{
+    float: right;
+}
+.menu a{
+    line-height: 46px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: #05a2ff;
+}
+/* 我的课程表 */
+.schedule{
+    float: right;
+    margin-top: 50px;
+    height: 300px;
+    width: 228px;
+    background-color: #fff;
+}
+.schedule div{
+    width: 228px;
+    height: 48px;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    background-color: #96ceea;
+}
+.schedule dl{
+    width: 192px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background-color: pink; */
+    border-bottom:1px solid #eaeaea;
+}
+.schedule dt{
+    margin-top: 14px;
+    font-size: 16px;
+    color: #4E4E4E ;
+    font-family: FZLTCXHJW--GB1-0;
+}
+.schedule dd{
+    font-size: 12px;
+    color: #A5A5A5 ;
+    font-family: FZLTCXHJW--GB1-0;
+}
+.schedule a{
+    display: block;
+    text-align: center;
+    margin: 5px auto 0px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #00A4FF;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #00A4FF;
+}
+/* 精品推荐导航栏 */
+.subnav{
+    height: 106px;
+    /* background-color: skyblue; */
+    overflow: hidden;
+}
+.subnav ul{
+    height: 18px;
+    margin-top: 8px;
+    background-color:#fff;
+    padding: 21px 0px;
+    box-shadow: 0px 2px 3px 0px rgba(118,118,118,0.2000);
+}
+.subnav li{
+    padding: 0px 36px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    line-height: 16px;
+    border-right: 1px solid #a4a7a7;
+    /* background-color: plum; */
+    float: left;
+}
+.subnav li:hover{
+    color: #00A4FF;
+}
+#hobby{
+    float: right;
+    color: #00A4FF;
+    border: 0px;
+}
+/* 精品推荐 */
+.recommend-content{
+    width:1230px ;
+    margin-bottom: 38px;
+    /* background-color: #ccc; */
+}
+.contant-top{
+    margin-bottom: 5px;
+}
+/* 标题样式 */
+.title{
+    font-size: 20px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #494949;
+    display: block;
+    width: 400px;
+    float: left;
+}
+/* 查看更多 */
+.more{
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #A5A5A5;
+    float: right;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.more:hover{
+    color: #00A4FF;
+}
+/* 小广告 */
+.content{
+    margin-top: 15px;
+    width: 228px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 0px rgba(118,118,118,0.5000);
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+.banner-s{
+    width: 228px;
+    height: 155px;
+}
+/* 小图标 */
+.tip{
+    position: absolute;
+    right: -4px;
+    top:4px;
+}
+.introduce{
+    padding: 22px 20px 0px 24px;
+    /* 上边距line-height占了3px */
+}
+.introduce p{
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #050505;
+    line-height: 20px;
+}
+.introduce div{
+    margin-top: 17px;
+    /* 上边距line-height占了3px */
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #999999;
+}
+.introduce span{
+    color: #FF7C2D;
+}
+/* 编程入门和数据分析师 */
+.contant-L{
+    height: 474px;
+    /* background-color: rosybrown; */
+}
+/* 中部级别导航栏 */
+.grade{
+    float: left;
+    /* overflow: hidden; */
+}
+.grade li{
+    text-align: center;
+    float: left;
+    width: 102px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #868686;
+    /* background-color: sandybrown; */
+    margin-top: 5px;
+}
+.grade li:hover{
+    color: #00A4FF;
+}
+/* 左侧广告 */
+.contant-L-left{
+    margin-top: 15px;
+    /* background-color: saddlebrown; */
+    width: 243px;
+    float: left;
+}
+.contant-L-left img{
+    width: 228px;
+    height: 392px;
+}
+.contant-L-right{
+    /* background-color: salmon; */
+    margin-top: 15px;
+    height: 392px;
+    width: 957px;
+    float: left;
+}
+/* 右上侧广告 */
+.contant-L-t{
+    /* height: 123px; */
+    width: 957px;
+    background-color: skyblue;
+    margin-bottom: 8px;
+}
+.ontant-L-t img{
+    width: 957px;
+    height: 100px;
+}
+.content-buttom{
+    width: 1230px;
+    /* background-color: #ccc; */
+    margin-bottom: 39px;
+}
+/* 底部平铺 */
+.footer-wrap{
+    height: 418px;
+    background-color: #fff;
+}
+.footer{
+    height: 418px;
+    /* background-color: cadetblue; */
+}
+.footer div{
+    height: 418px;
+    float: left;
+}
+/* 网页介绍 */
+.footer-left{
+    width: 640px;
+    /* background-color: cornflowerblue; */
+    margin-left: 18px;
+}
+.footer-left img{
+    margin-top: 33px;
+}
+.footer-left p{
+    margin-top: 22px;
+    width: 426px;
+    font-size: 12px;
+    font-family: SimSun;
+    font-weight: 400;
+    color: #666666;
+    line-height: 18px;
+}
+.footer-left a{
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00A4FF;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #00A4FF;
+}
+/* 无序列表导航 */
+/* .footer-right{
+    background-color: cornsilk;
+} */
+.footer-right dl{
+    float: left;
+    margin-top: 33px;
+}
+.footer-right dt{
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.footer-right dd{
+    font-size: 12px;
+    font-family: SimSun;
+    font-weight: 400;
+    color: #333333;
+    line-height: 21px;
+}
+/* 左侧滚动导航栏 */
+.nav-roll{
+    width: 184px;
+    height: 426px;
+    background-color: #fff;
+    position:fixed;
+    top:500px;
+    left: 50%;
+    margin-left: -800px;
+}
+.nav-roll ul{
+    margin: 27px 25px 0px;
+}
+.nav-roll li{
+    height: 36px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #000000;
+}
+.nav-roll li:hover{
+    color:#00A4FF;
+}

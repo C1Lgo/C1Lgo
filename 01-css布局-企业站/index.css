@@ -1,0 +1,175 @@
+body{
+    width: 1346px;
+    margin: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 全局设置 */
+
+#logo
+{
+    margin-left: 180px;
+    margin-top: 35px;
+}
+
+form{
+    float: right;
+    margin-right: 200px;
+    margin-top: 38px;
+    background-color: #f1f1f1;   
+}
+
+input{
+height: 25px;
+width: 200px;
+border: 0px;
+background-color: #f1f1f1;
+float: left;
+}
+
+#search{
+    background-image:url(./images/search.png);
+    border: 0px;
+    height:25px;
+    width: 25px;
+    float: left;
+}
+
+#tab{
+    margin: auto;
+    width: 960px;
+    font-size: 0;
+    /* 消除button直接的间距 */
+}
+
+.tab{
+    text-align: center;
+    color: #fff;
+    width: 120px;
+    height: 60px;
+    background-color: #2f2f2f;
+    border: 0px;
+}
+
+/* 鼠标悬浮样式 */
+.tab:hover{
+    color: #2f2f2f;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+#gsxw{
+    width: 480px;
+    margin-left: 180px;
+    background-color: #fff;
+    height:240px;
+    float: left;
+}
+
+li{
+    list-style-type:disc;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+#time{
+     font-size: 12px;
+     float:right;
+     margin-right: 20px;
+}
+
+#gsjs{
+    width: 240px;
+    height: 240px;
+    background-color: #f1f1f1;
+    float: left;
+}
+
+#rczp{
+    width: 240px;
+    height: 240px;
+    margin-right: 201px;
+    background-image: url(./images/05.png);
+    float: left;
+}
+
+#more{
+    width: 67px;
+    height: 20px;
+    margin-left: 25px;
+    border: 0px;
+    background-color: #b0b0b0;
+    font-size: 8px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    display: block; 
+    /* 将a标签转变成块元素 */
+    text-decoration: none;
+    /* 去除超链接下划线 */
+    border-radius: 5px;
+    /* 给矩形边框加圆角 */
+}
+
+#p1{
+    font-size: 14px;
+    margin-left: 25px;
+    line-height: 22px;
+}
+
+#span1{
+    font-size: 11px;
+}
+
+#p2{
+    font-size: 12px;
+    margin-left: 25px;
+    line-height: 22px;
+}
+
+table{
+    margin-left: 180px;
+    font-size: 11px;
+    color: black;
+    border: spacing 0;
+}
+td{
+    padding-top: 16px;
+    line-height: 20px;
+}
+
+span{
+    font-size: 18px;
+    display: inline-block; 
+    /* 行内元素设置内外边距会不起效 */
+}
+
+#li1{
+    list-style-image:url(./images/07.png);
+    margin-top: 12px;
+    font-size: 12px;
+    /* position: relative; */
+    /* 绝对定位：依照自身位置进行移动 */
+    /* left: -20px; */
+    /* position: absolute; */
+}
+
+hr{
+    margin-top: 5px;
+}
+
+#bottom1{
+    margin-left: 180px;
+    font-size: 10px;
+    color: #858585;
+    float: left;
+}
+
+#bottom2{
+    float: left;
+    margin-left: 110px;
+    font-size: 9px;
+    color: #858585;
+}

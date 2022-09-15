@@ -1,0 +1,30 @@
+/* 页面版心 */
+.e-heart{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 设置浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 清除高度塌陷 */
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 浏览器版本的优化 */
+.clear-fix{
+    *zoom: 1;
+}
+/* 设置边框为0 */
+.border0{
+    border: 0 !important;
+}
+/* 消除最后一个块统一设置的右边距 */
+.right{
+    margin-right: 0px !important;
+}
